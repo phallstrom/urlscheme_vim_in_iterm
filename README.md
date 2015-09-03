@@ -10,14 +10,18 @@ To make this work, I've written a small AppleScript based application that regis
 1. Download the [ZIP](https://github.com/phallstrom/urlscheme_vim_in_iterm/archive/master.zip) and unzip it.
 2. Copy the 'Vim in Iterm' application to your Applications folder.
 3. Double click it to open it.  The application needs to be run normally, just once, in order to register the URLScheme with the OS.
-4. Load a URL like this into your browser to confirm it's working: `viminiterm://open?url=file:///etc/bashrc&line=3`
+5. You can click [here](`viminiterm://open?url=file:///etc/bashrc&line=3`) to trigger the registration or manually insert the following snippet into the browser.
+
+> viminiterm://open?url=file:///etc/bashrc&line=3
 
 ## Integrate with Better Errors
 Create 'config/initializers/better_errors.rb' with the following contents and restart your Rails application.
 
-	if defined? BetterErrors
-	  BetterErrors.editor = proc { |file, line| "viminiterm://open?url=file://#{file}&line=#{line}" }
-	end
+```ruby
+if defined? BetterErrors
+    BetterErrors.editor = proc { |file, line| "viminiterm://open?url=file://#{file}&line=#{line}" }
+end
+```
 
 ## Example
 
