@@ -26,10 +26,13 @@ end
 ## Example
 
 An error is raised in the Rails application. Clicking the filename will open the 'viminiterm://' link.
+
 ![image](https://raw.github.com/phallstrom/urlscheme_vim_in_iterm/master/screenshots/better_errors.jpg)
 
 The first time this happens your browser may prompt you to confirm you want to do it. Set your preferences and continue.
+
 ![image](https://raw.github.com/phallstrom/urlscheme_vim_in_iterm/master/screenshots/launch_application.jpg)
 
 The application runs, and a new iTerm session is opened, opening vim with that file and line.
+
 ![image](https://raw.github.com/phallstrom/urlscheme_vim_in_iterm/master/screenshots/vim_in_iterm.jpg)
