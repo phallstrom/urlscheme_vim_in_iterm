@@ -13,8 +13,6 @@ To make this work, I've written a small AppleScript based application that regis
 5. You can click [here](`viminiterm://open?url=file:///etc/bashrc&line=3`) to
    trigger the registration or manually insert the following snippet into the
    browser: `viminiterm://open?url=file:///etc/bashrc&line=3`
-   
-<a href="viminiterm://open?url=file:///etc/bashrc&line=3">here</a>
 
 ## Integrate with Better Errors
 Create 'config/initializers/better_errors.rb' with the following contents and restart your Rails application.
