@@ -10,7 +10,7 @@ To make this work, I've written a small AppleScript based application that regis
 1. Download the [ZIP](https://github.com/phallstrom/urlscheme_vim_in_iterm/archive/master.zip) and unzip it.
 2. Copy the 'Vim in Iterm' application to your Applications folder.
 3. Double click it to open it.  The application needs to be run normally, just once, in order to register the URLScheme with the OS.
-5. You can click [here]('viminiterm://open?url=file:///etc/bashrc&line=3') to
+5. You can click [here](viminiterm://open?url=file:///etc/bashrc&line=3) to
    trigger the registration or manually insert the following snippet into the
    browser: `viminiterm://open?url=file:///etc/bashrc&line=3`
 
